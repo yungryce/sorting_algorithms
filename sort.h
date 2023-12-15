@@ -19,7 +19,6 @@ typedef enum bool
 	true
 } bool;
 
-
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -46,6 +45,5 @@ void shell_sort(int *array, size_t size);
 void swap_ints(int *a, int *b);
 int lomuto_partition(int *array, size_t size, int left, int right);
 void lomuto_sort(int *array, size_t size, int left, int right);
-
 
 #endif
