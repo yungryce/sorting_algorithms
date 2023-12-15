@@ -44,9 +44,11 @@ void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
+void radix_sort(int *array, size_t size);
 
-/* swap */
+
 void swap_ints(int *a, int *b);
+int get_max(int *array, int size);
 
 /* insertion sort */
 void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2);
@@ -59,9 +61,6 @@ void lomuto_sort(int *array, size_t size, int left, int right);
 void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker);
 void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker);
 
-/* counting sort */
-int get_max(int *array, int size);
-
 /* merge sort */
 void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
 		size_t back);
@@ -69,5 +68,8 @@ void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
 
 /* Heap sort */
 void max_heapify(int *array, size_t size, size_t base, size_t root);
+
+/* radix sort */
+void radix_counting_sort(int *array, size_t size, int sig, int *buff);
 
 #endif
