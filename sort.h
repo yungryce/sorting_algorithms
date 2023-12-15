@@ -45,7 +45,7 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
-
+void bitonic_sort(int *array, size_t size);
 
 void swap_ints(int *a, int *b);
 int get_max(int *array, int size);
@@ -72,4 +72,8 @@ void max_heapify(int *array, size_t size, size_t base, size_t root);
 /* radix sort */
 void radix_counting_sort(int *array, size_t size, int sig, int *buff);
 
+/* bitonic sort */
+void bitonic_merge(int *array, size_t size, size_t start, size_t seq,
+		char flow);
+void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow);
 #endif
