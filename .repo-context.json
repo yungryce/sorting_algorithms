@@ -1,0 +1,190 @@
+{
+  "project_identity": {
+    "name": "sorting_algorithms",
+    "type": "educational",
+    "scope": "algorithms",
+    "is_independent": true,
+    "version": "1.0.0",
+    "description": "Comprehensive implementation and analysis of fundamental sorting algorithms in C with Big O notation complexity evaluation, covering simple O(n²) algorithms to advanced O(n log n) algorithms with performance optimization and mathematical analysis",
+    "curriculum_stage": "intermediate",
+    "related_projects": ["binary_trees", "printf", "simple_shell", "monty"]
+  },
+  "tech_stack": {
+    "primary_language": "c",
+    "languages": ["c"],
+    "frameworks_libraries": ["stdio.h", "stdlib.h", "stddef.h"],
+    "tools": ["gcc", "make", "valgrind", "gdb", "time"],
+    "paradigms": ["algorithmic_programming", "mathematical_analysis", "performance_optimization"],
+    "concepts": ["sorting_algorithms", "big_o_notation", "complexity_analysis", "data_structures", "algorithm_optimization"]
+  },
+  "skill_manifest": {
+    "technical_skills": [
+      "Sorting Algorithm Implementation and Design",
+      "Big O Notation Analysis and Mathematical Complexity Evaluation",
+      "Time and Space Complexity Analysis Across Multiple Scenarios",
+      "Algorithm Performance Optimization and Efficiency Improvement",
+      "Array and Linked List Data Structure Manipulation",
+      "Comparative Algorithm Analysis and Selection Strategies",
+      "Memory Management and Resource Optimization in Algorithms",
+      "Mathematical Reasoning and Algorithmic Problem Solving",
+      "Code Profiling and Performance Measurement Techniques",
+      "Algorithm Visualization and Step-by-Step Analysis",
+      "Stable vs Unstable Sorting Algorithm Understanding",
+      "Recursive and Iterative Algorithm Implementation",
+      "Advanced Sorting Techniques (Merge, Quick, Heap Sort)",
+      "Specialized Sorting (Counting, Radix, Shell Sort)"
+    ],
+    "domain_skills": [
+      "Computer Science Algorithm Fundamentals",
+      "Computational Complexity Theory and Applications",
+      "Data Structure Design and Implementation",
+      "Mathematical Analysis for Computer Science",
+      "Performance Engineering and Optimization",
+      "Algorithm Design Patterns and Strategies",
+      "Comparative Analysis and Benchmarking",
+      "Software Engineering Best Practices for Algorithms"
+    ],
+    "soft_skills": [
+      "Analytical Thinking and Problem Decomposition",
+      "Mathematical Reasoning and Logical Analysis",
+      "Performance-Oriented Development Mindset",
+      "Systematic Testing and Validation Approaches",
+      "Documentation and Technical Communication",
+      "Code Quality and Maintainability Focus",
+      "Continuous Learning and Algorithm Research",
+      "Attention to Detail in Implementation"
+    ]
+  },
+  "educational_context": {
+    "institution": "ALX",
+    "program": "Software Engineering",
+    "specialization": "Algorithm Design and Analysis",
+    "project_number": "0x1B",
+    "duration_weeks": 2,
+    "difficulty_level": "intermediate",
+    "learning_outcomes": [
+      "Master fundamental sorting algorithm implementation",
+      "Understand and apply Big O notation for complexity analysis",
+      "Compare and contrast different sorting strategies",
+      "Optimize algorithm performance for different scenarios",
+      "Implement both array and linked list sorting approaches"
+    ]
+  },
+  "project_scope": {
+    "objectives": [
+      "Implement at least 8 different sorting algorithms",
+      "Analyze time complexity in best, average, and worst cases",
+      "Create efficient and readable algorithm implementations",
+      "Document complexity analysis for each algorithm",
+      "Compare performance characteristics across algorithms"
+    ],
+    "deliverables": [
+      "Complete sorting algorithm implementations",
+      "Big O complexity analysis files",
+      "Algorithm comparison documentation",
+      "Performance testing and validation",
+      "Comprehensive project documentation"
+    ],
+    "constraints": [
+      "Use only standard C library functions",
+      "Implement algorithms from scratch without external libraries",
+      "Follow specific function prototypes and naming conventions",
+      "Maintain O(1) space complexity where specified",
+      "Ensure proper memory management and leak prevention"
+    ]
+  },
+  "algorithm_catalog": {
+    "simple_sorts": {
+      "bubble_sort": {
+        "file": "0-bubble_sort.c",
+        "complexity_file": "0-O",
+        "time_complexity": {"best": "O(n)", "average": "O(n²)", "worst": "O(n²)"},
+        "space_complexity": "O(1)",
+        "stable": true,
+        "adaptive": true
+      },
+      "selection_sort": {
+        "file": "2-selection_sort.c",
+        "complexity_file": "2-O",
+        "time_complexity": {"best": "O(n²)", "average": "O(n²)", "worst": "O(n²)"},
+        "space_complexity": "O(1)",
+        "stable": false,
+        "adaptive": false
+      },
+      "insertion_sort": {
+        "file": "1-insertion_sort_list.c",
+        "complexity_file": "1-O",
+        "time_complexity": {"best": "O(n)", "average": "O(n²)", "worst": "O(n²)"},
+        "space_complexity": "O(1)",
+        "stable": true,
+        "adaptive": true
+      }
+    },
+    "advanced_sorts": {
+      "quick_sort_lomuto": {
+        "file": "3-quick_sort.c",
+        "complexity_file": "3-O",
+        "time_complexity": {"best": "O(n log n)", "average": "O(n log n)", "worst": "O(n²)"},
+        "space_complexity": "O(log n)",
+        "stable": false,
+        "adaptive": false
+      },
+      "merge_sort": {
+        "file": "103-merge_sort.c",
+        "complexity_file": "103-O",
+        "time_complexity": {"best": "O(n log n)", "average": "O(n log n)", "worst": "O(n log n)"},
+        "space_complexity": "O(n)",
+        "stable": true,
+        "adaptive": false
+      },
+      "heap_sort": {
+        "file": "104-heap_sort.c",
+        "complexity_file": "104-O",
+        "time_complexity": {"best": "O(n log n)", "average": "O(n log n)", "worst": "O(n log n)"},
+        "space_complexity": "O(1)",
+        "stable": false,
+        "adaptive": false
+      }
+    },
+    "specialized_sorts": {
+      "counting_sort": {
+        "file": "102-counting_sort.c",
+        "complexity_file": "102-O",
+        "time_complexity": {"best": "O(n + k)", "average": "O(n + k)", "worst": "O(n + k)"},
+        "space_complexity": "O(k)",
+        "stable": true,
+        "data_constraint": "integers_with_known_range"
+      },
+      "radix_sort": {
+        "file": "105-radix_sort.c",
+        "complexity_file": "105-O",
+        "time_complexity": {"best": "O(d × n)", "average": "O(d × n)", "worst": "O(d × n)"},
+        "space_complexity": "O(n + k)",
+        "stable": true,
+        "data_constraint": "non_negative_integers"
+      },
+      "shell_sort": {
+        "file": "100-shell_sort.c",
+        "complexity_file": "101-O",
+        "time_complexity": {"best": "O(n log n)", "average": "O(n^1.5)", "worst": "O(n²)"},
+        "space_complexity": "O(1)",
+        "stable": false,
+        "gap_sequence": "knuth"
+      }
+    }
+  },
+  "development_standards": {
+    "coding_style": "betty",
+    "compilation_flags": ["-Wall", "-Werror", "-Wextra", "-pedantic"],
+    "memory_management": "manual",
+    "testing_approach": "unit_testing_with_main_functions",
+    "documentation_requirements": ["function_headers", "big_o_analysis", "algorithm_explanation"]
+  },
+  "assessment_criteria": {
+    "implementation_correctness": 40,
+    "complexity_analysis_accuracy": 25,
+    "code_quality_and_style": 20,
+    "performance_optimization": 10,
+    "documentation_completeness": 5
+  }
+}

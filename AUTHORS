@@ -1,0 +1,63 @@
+# 👥 Authors & Contributors
+
+This file lists all contributors to this ALX educational project.
+
+---
+
+## 🎓 Primary Author(s)
+
+**Chigbu Joshua**
+- 📧 Email: [chigbujoshua@yahoo.com](mailto:chigbujoshua@yahoo.com)
+- 🐙 GitHub: [@yungryce](https://github.com/yungryce)
+- 🎯 Role: ALX Software Engineering Student
+- 📅 Contribution Period: January 2024 - December 2024
+
+---
+
+## 🤝 Additional Contributors
+
+*This section will be updated as new contributors join the project.*
+
+---
+
+## 📚 Educational Context
+
+**Program**: ALX Software Engineering
+**Institution**: ALX Africa
+**Project**: 0x1B. C - Sorting algorithms & Big O
+**Curriculum Track**: Low-level programming & Algorithms
+**Cohort**: 2024
+
+---
+
+## 🏆 Project Contributions
+
+### Algorithm Implementations
+- **Simple Sorting Algorithms**: Bubble, Selection, Insertion Sort implementations
+- **Advanced Sorting Algorithms**: Quick, Merge, Heap Sort implementations  
+- **Specialized Algorithms**: Counting, Radix, Shell Sort implementations
+- **Complexity Analysis**: Big O notation documentation for all algorithms
+
+### Documentation & Architecture
+- **Comprehensive README**: Project overview, usage instructions, and algorithm comparison
+- **Skills Documentation**: Complete skills index with technical competencies
+- **Architecture Design**: System design and component relationship documentation
+- **Code Quality**: Betty style compliance and comprehensive commenting
+
+### Educational Value
+- **Learning Objectives**: Clear algorithmic thinking and complexity analysis goals
+- **Progressive Difficulty**: Structured learning path from simple to advanced algorithms
+- **Practical Applications**: Real-world algorithm selection and optimization strategies
+- **Performance Analysis**: Empirical testing and mathematical complexity validation
+
+---
+
+## 📄 License & Usage
+
+This project is part of the ALX Software Engineering curriculum and follows ALX educational licensing terms. See [LICENSE.txt](LICENSE.txt) for full details.
+
+---
+
+## 🌟 Acknowledgments
+
+Special thanks to the ALX Software Engineering program, instructors, and peer learners who contributed to the development and refinement of these algorithm implementations and educational materials.
